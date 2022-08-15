@@ -3,23 +3,50 @@
     private static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
-
-        // Try out the function
-        Console.WriteLine(GreatestCommonDenominator(60, 96)); // should be 12
-        Console.WriteLine(GreatestCommonDenominator(20, 8)); // should be 4
-
         
-    }
-    // Find GCD of two numbers using Euclid's algo
-    public static int GreatestCommonDenominator(int a, int b)
-    {
-        while (b != 0)
-        {
-            var temp = a;
-            a = b;
-            b = temp % b;
-        }
-        return a;
     }
 }
 
+public class LinkedList{
+    public LinkedList(Node? head=null)
+    {
+        Head = head;
+        Tail = head;
+        _count = head is null ? 0 : 1;
+    }
+
+    private int _count;
+    public Node? Head { get; set;}
+    public Node? Tail { get; set;}
+    
+
+    // methods
+    public int Count {get{
+        return _count;
+    }}
+    public int? GetNodeData(Node node){
+        return node is not null ? node.Value : null;
+    }
+    public void Insert(Node data){
+        //TODO
+    }
+    public Node? Find(int val){
+        //TODO
+        return null;
+    }
+    public Node? DeleteAt(int index){
+        //TODO
+        return null;
+    }
+}
+public class Node{
+    public Node(int val, Node? previous=null, Node? next=null)
+    {
+        Previous = previous;
+        Next = next;
+        Value = val;
+    }
+    public Node? Previous { get; set; }
+    public Node? Next { get; set; }
+    public int Value { get; set; }
+}
