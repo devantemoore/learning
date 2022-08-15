@@ -1,0 +1,15 @@
+C:\li_learning\algos\bin\Debug\net6.0\algos.exe
+C:\li_learning\algos\bin\Debug\net6.0\algos.deps.json
+C:\li_learning\algos\bin\Debug\net6.0\algos.runtimeconfig.json
+C:\li_learning\algos\bin\Debug\net6.0\algos.dll
+C:\li_learning\algos\bin\Debug\net6.0\ref\algos.dll
+C:\li_learning\algos\bin\Debug\net6.0\algos.pdb
+C:\li_learning\algos\obj\Debug\net6.0\algos.csproj.AssemblyReference.cache
+C:\li_learning\algos\obj\Debug\net6.0\algos.GeneratedMSBuildEditorConfig.editorconfig
+C:\li_learning\algos\obj\Debug\net6.0\algos.AssemblyInfoInputs.cache
+C:\li_learning\algos\obj\Debug\net6.0\algos.AssemblyInfo.cs
+C:\li_learning\algos\obj\Debug\net6.0\algos.csproj.CoreCompileInputs.cache
+C:\li_learning\algos\obj\Debug\net6.0\algos.dll
+C:\li_learning\algos\obj\Debug\net6.0\ref\algos.dll
+C:\li_learning\algos\obj\Debug\net6.0\algos.pdb
+C:\li_learning\algos\obj\Debug\net6.0\algos.genruntimeconfig.cache
