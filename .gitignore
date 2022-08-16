@@ -348,3 +348,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+obj/Debug/net6.0/algos.dll
+obj/Debug/net6.0/algos.pdb
+obj/Debug/net6.0/ref/algos.dll
