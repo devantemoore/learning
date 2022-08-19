@@ -4,10 +4,16 @@
     {
         Console.WriteLine("Hello, World!");
 
-        // Try out the function
-        Console.WriteLine(GreatestCommonDenominator(60, 96)); // should be 12
-        Console.WriteLine(GreatestCommonDenominator(20, 8)); // should be 4
+        //HashTableDemo.GetDemo();
+        //RecursionDemo.CountDown(19);
+        // Console.WriteLine(RecursionDemo.Power(2, 0));
+        // Console.WriteLine(RecursionDemo.Power(2, 1));
+        // Console.WriteLine(RecursionDemo.Power(2, 2));
+        // Console.WriteLine(RecursionDemo.Power(2, 10));
 
+        //SortingDemo.BubbleSort();
+
+        SortingDemo.MergeSortDemo();
         
     }
     // Find GCD of two numbers using Euclid's algo
